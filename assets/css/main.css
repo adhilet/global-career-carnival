@@ -670,7 +670,7 @@ section,
 .section-title p {
   margin: 15px auto 0;
   font-size: 16px;
-  max-width: 700px;
+  max-width: 1200px;
   color: color-mix(in srgb, var(--default-color), transparent 25%);
   line-height: 1.8;
 }
