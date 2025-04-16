@@ -13,10 +13,6 @@
     <script src="vanta.topology.min.js"></script>
 </head>
 <body>
-   
-<!-- <div class="">
-</div> -->
-
 
 <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -25,7 +21,7 @@
         <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Global</span>
     </a>
     <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-        <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"><a href="https://forms.gle/7XvgyXiTHbJozhkB8">Register Now</a></button>
+        <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"><a href="#registernow">Register Now</a></button>
         <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
           <span class="sr-only">Open main menu</span>
           <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
@@ -113,7 +109,7 @@
 
 
    
-    <section class="py-10 sm:py-16 lg:py-24">
+    <section class="py-24">
         <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 text-center sm:grid-cols-2 gap-y-8 lg:grid-cols-4 sm:gap-12">
                 <div>
@@ -151,11 +147,55 @@
         </div>
     </section>
 </section>
+
+
+<section class="">
+    <div class="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
+        <div class="max-w-2xl mx-auto text-center">
+            <!-- <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">ONE CARNIVAL <span class="font-bold">ENDLESS CAREER</span> </h2> -->
+            <p class="mt-3 text-xl leading-relaxed text-gray-600 md:mt-8">KEYPOINTS</p>
+        </div>
+
+        <div class="grid grid-cols-1 gap-8 mt-10 text-center lg:mt-24 sm:gap-x-8 md:grid-cols-4">
+            <div>
+                <h3 class="font-bold text-7xl">
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-600 to-blue-600"> 100+ </span>
+                </h3>
+                <p class="mt-4 text-xl font-medium text-gray-900">Career Paths</p>
+                <!-- <p class="text-base mt-0.5 text-gray-500">Creating the successful path</p> -->
+            </div>
+
+            <div>
+                <h3 class="font-bold text-7xl">
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-600 to-blue-600"> 5000+ </span>
+                </h3>
+                <p class="mt-4 text-xl font-medium text-gray-900">Students Participants</p>
+                <!-- <p class="text-base mt-0.5 text-gray-500">In last 6 years</p> -->
+            </div>
+
+            <div>
+                <h3 class="font-bold text-7xl">
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-600 to-blue-600"> 75+ </span>
+                </h3>
+                <p class="mt-4 text-xl font-medium text-gray-900">Career & Industry Stalls</p>
+                <!-- <p class="text-base mt-0.5 text-gray-500">Working for your success</p> -->
+            </div>
+            <div>
+                <h3 class="font-bold text-7xl">
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-600 to-blue-600"> 25+ </span>
+                </h3>
+                <p class="mt-4 text-xl font-medium text-gray-900">Expert-Led Sessions</p>
+                <!-- <p class="text-base mt-0.5 text-gray-500">Working for your success</p> -->
+            </div>
+        </div>
+    </div>
+</section>
+
     
 <section class="py-10 sm:py-16 lg:py-24">
     <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div class="text-center">
-            <h2 class="leading-tight text-black sm:text-4xl lg:text-3xl">The Global Career Carnival 2025 is a pioneering educational summit designed to provide:</h2>
+            <h2 class="leading-tight text-black sm:text-4xl lg:text-2xl">The Global Career Carnival 2025 is a pioneering educational summit designed to provide:</h2>
         </div>
 
         <div class="px-5 py-8 mt-12 lg:mt-20 lg:p-16">
@@ -318,6 +358,48 @@
         </div>
     </section>
 
+
+    <section class="py-10 bg-white sm:py-16 lg:py-24">
+    <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl lg:leading-tight">Speakers</h2>
+            <p class="max-w-2xl mx-auto mt-4 text-xl text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis.</p>
+        </div>
+
+        <div class="grid grid-cols-1 gap-6 mt-8 sm:grid-cols-3 md:mt-16 lg:gap-x-12">
+            <div>
+                <img class="w-full" src="./assets/images/sp1.jpeg" alt="" />
+            </div>
+
+            <div>
+                <img class="w-full" src="./assets/images/sp2.jpeg" alt="" />
+            </div>
+
+            <div>
+                <img class="w-full" src="./assets/images/sp3.jpeg" alt="" />
+            </div>
+            <div>
+                <img class="w-full" src="./assets/images/sp4.jpeg" alt="" />
+            </div>
+
+            <div>
+                <img class="w-full" src="./assets/images/sp5.jpeg" alt="" />
+            </div>
+<!-- 
+            <div>
+                <img class="w-full" src="./assets/images/sp6.jpeg" alt="" />
+            </div> -->
+            <div>
+                <img class="w-full" src="./assets/images/sp7.jpeg" alt="" />
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
     <section id="registernow" class="py-10 bg-white sm:py-16 lg:py-24">
         <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
             <div class="max-w-2xl mx-auto text-center">
@@ -372,13 +454,98 @@
                 </div>
                 
                 
+                <!-- form -->
     
-                <a href="https://forms.gle/7XvgyXiTHbJozhkB8" title="" class="inline-flex items-center justify-center px-4 py-4 mt-8 font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md lg:mt-12 hover:bg-blue-700 focus:bg-blue-700" role="button">
-                    <svg class="w-5 h-5 mr-2 -ml-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                    </svg>
-                    Book Your Seats Now!
-                </a>
+                <form class="max-w-4xl mx-auto my-14 p-8 bg-white shadow-md rounded-lg">
+  <div>
+    <div class="border-b border-gray-900/10 pb-12">
+        <p class="mt-1 text-gray-600 text-2xl font-bold">Global Career Carnival 2025</p>
+    <h2 class="text-2xl leading-tight text-black sm:text-2xl lg:text-3xl">Registration Form</h2>
+
+      <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6 text-left">
+        <div class="sm:col-span-3">
+          <label for="first-name" class="block text-sm/6 font-medium text-gray-900">First name</label>
+          <div class="mt-2">
+            <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
+          </div>
+        </div>
+
+        <div class="sm:col-span-3">
+          <label for="last-name" class="block text-sm/6 font-medium text-gray-900">Last name</label>
+          <div class="mt-2">
+            <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
+          </div>
+        </div>
+
+        <div class="sm:col-span-3">
+          <label for="email-address" class="block text-sm/6 font-medium text-gray-900">Email Address</label>
+          <div class="mt-2">
+            <input type="email" name="email-address" id="email-address" class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
+          </div>
+        </div>
+
+        <div class="sm:col-span-3">
+          <label for="phone-number" class="block text-sm/6 font-medium text-gray-900">Phone Number</label>
+          <div class="mt-2">
+            <input type="tel" name="phone-number" id="phone-number" autocomplete="family-name" class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
+          </div>
+        </div>
+      
+
+        <div class="sm:col-span-3">
+          <label for="qualification" class="block text-sm/6 font-medium text-gray-900">Qualification</label>
+          <div class="mt-2 grid grid-cols-1">
+            <select id="qualification" name="qualification" class="col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-1.5 pr-8 pl-3 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
+              <option>SSLC</option>
+              <option>+2</option>
+              <option>UG</option>
+              <option>PG</option>
+            </select>
+            <svg class="pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end text-gray-500 sm:size-4" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" data-slot="icon">
+              <path fill-rule="evenodd" d="M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+            </svg>
+          </div>
+        </div>
+
+        <div class="col-span-full">
+          <label for="school" class="block text-sm/6 font-medium text-gray-900">School / College</label>
+          <div class="mt-2">
+            <input type="text" name="school" id="school" class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
+          </div>
+        </div>
+
+        <div class="sm:col-span-3">
+          <label for="guardian-name" class="block text-sm/6 font-medium text-gray-900">Guardian Name</label>
+          <div class="mt-2">
+            <input type="text" name="guardian-name" id="guardian-name" class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
+          </div>
+        </div>
+
+        <div class="sm:col-span-3">
+          <label for="guardian-contact" class="block text-sm/6 font-medium text-gray-900">Guardian Contact</label>
+          <div class="mt-2">
+            <input type="text" name="guardian-contact" id="guardian-contact" class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
+          </div>
+        </div>
+
+        <div class="col-span-full">
+          <label for="place" class="block text-sm/6 font-medium text-gray-900">Place</label>
+          <div class="mt-2">
+            <input type="text" name="place" id="place" class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-6 flex items-center justify-end gap-x-6">
+    <button type="button" class="text-sm/6 font-semibold text-gray-900">Cancel</button>
+    <button type="submit" class="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Save</button>
+  </div>
+</form>
+
+                <!-- form -->
+    
             </div>
         </div>
     </section>
@@ -641,8 +808,8 @@
     </section>
     
     
-    <script src="./assets/js/script.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+<script src="./assets/js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
 </body>
 </html>
 
