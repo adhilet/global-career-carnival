@@ -73,8 +73,8 @@
 
                 </div>
                 <div>
-                    <!-- <img class="w-full" src="./assets/images/gcc1.png" alt="" /> -->
-                    <img class="w-full" src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/1/hero-img.png" alt="" />
+                    <img class="w-full" src="./assets/images/hero-right.webp" alt=""" />
+                    <!-- <img class="w-full" src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/1/hero-img.png alt="" /> -->
                 </div>
             </div>
         </div>
@@ -90,7 +90,7 @@
                     <div class="grid items-center md:grid-cols-2 gap-y-10 md:gap-x-20">
                         <div class="pr-12 sm:pr-0">
                             <div class="relative max-w-xs mb-12">
-                                <img class="object-bottom rounded-md" src="https://cdn.rareblocks.xyz/collection/celebration/images/features/4/man-eating-noodles.jpg" alt="" />
+                                <img class="object-bottom rounded-md" src="./assets/images/about-avatar.webp" alt="About" />
             
                                 <!-- <img class="absolute origin-bottom-right scale-75 rounded-md -bottom-12 -right-12" src="https://cdn.rareblocks.xyz/collection/celebration/images/features/4/smiling-businessman.jpg" alt="" /> -->
                             </div>
