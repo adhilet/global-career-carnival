@@ -76,6 +76,27 @@
     </section>
 
 
+    <section class="py-10 sm:py-16 lg:py-24">
+        <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 place-items-center">
+            <div>
+              <img class="object-contain w-auto h-28" src="./assets/images/nect-logo.png" alt="Logo 1" />
+            </div>
+            <div>
+              <img class="object-contain w-auto h-28" src="./assets/images/aman-logo.png" alt="Logo 2" />
+            </div>
+            <div>
+              <img class="object-contain w-auto h-28" src="./assets/images/cigi-logo.png" alt="Logo 3" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    
+
+
+
 
 
     <section id="about" class="py-10 sm:py-16 lg:py-24 relative w-full min-h-[100vh] bg-cover bg-center bg-no-repeat bg-fixed z-[-1]" style="background-image: url('./assets/images/hero-main.webp');">
@@ -103,44 +124,8 @@
 
 
    
-    <section class="py-24">
-        <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 text-center sm:grid-cols-2 gap-y-8 lg:grid-cols-4 sm:gap-12">
-                <div>
-                    <div class="flex items-center justify-center w-20 h-20 mx-auto bg-blue-100 rounded-full">
-                        <img src="./assets/images/icons-date.png" alt="">
-                    </div>
-                    <h3 class="mt-8 text-lg font-semibold text-black">Date</h3>
-                    <p class="mt-4 text-sm text-gray-600">13,&nbsp;14 May 2025</p>
-                </div>
-    
-                <div>
-                    <div class="flex items-center justify-center w-20 h-20 mx-auto bg-orange-100 rounded-full">
-                        <img src="./assets/images/icons-loation.png" alt="">
-                    </div>
-                    <h3 class="mt-8 text-lg font-semibold text-black">Venue</h3>
-                    <p class="mt-4 text-sm text-gray-600">Rozia International Convention Centre</p>
-                </div>
-    
-                <div>
-                    <div class="flex items-center justify-center w-20 h-20 mx-auto bg-green-100 rounded-full">
-                        <img src="./assets/images/icons-organization.png" alt="">
-                    </div>
-                    <h3 class="mt-8 text-lg font-semibold text-black">Organized By</h3>
-                    <p class="mt-4 text-sm text-gray-600">National Education & Charitable Trust (NECT) & CIGI – Centre for Guidance India</p>
-                </div>
-    
-                <div>
-                    <div class="flex items-center justify-center w-20 h-20 mx-auto bg-red-100 rounded-full">
-                        <img src="./assets/images/icons-support.png" alt="">
-                    </div>
-                    <h3 class="mt-8 text-lg font-semibold text-black">Supported By</h3>
-                    <p class="mt-4 text-sm text-gray-600">Malappuram District Panchayat</p>
-                </div>
-            </div>
-        </div>
-    </section>
-</section>
+           
+              
 
 
 <section class="">
@@ -554,9 +539,7 @@
     </section>
 
 
-    <div>
-        <img class="w-full" src="./assets/images/header.jpeg" alt="Header"/>
-    </div>
+    
 
     <section id="contact" class="py-10 bg-gray-100 sm:py-16 lg:py-24">
         <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
@@ -692,10 +675,14 @@
 
     
 
-    
+    <div>
+        <img class="w-full" src="./assets/images/header.jpeg" alt="Header"/>
+    </div>
     <section class="py-10 bg-gray-900 sm:pt-16 lg:pt-24">
         <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+            
             <div class="grid grid-cols-2 gap-x-5 gap-y-12 md:grid-cols-4 md:gap-x-12">
+                
                 <div>
                     <!-- <p class="text-base text-gray-500"></p>
     
@@ -770,9 +757,11 @@
                             <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"></a>
                         </li>
                     </ul> -->
+                    
                 </div>
+                
             </div>
-    
+            
             <hr class="mt-16 mb-10 border-gray-800" />
     
             <div class="flex flex-wrap items-center justify-between">
