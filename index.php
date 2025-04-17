@@ -55,8 +55,8 @@
     </div>
   </nav>
   
-    <!-- <section class="py-20 sm:py-16 lg:py-24 relative w-full min-h-[100vh] bg-cover bg-center bg-no-repeat bg-fixed z-[-1]" style="background-image: url('./assets/images/hero-main.webp');"> -->
-        <section class="py-20 sm:py-16 lg:py-2 relative w-full">
+    <!-- <section class="py-20 sm:py-16 lg:py-2 relative w-full min-h-[100vh] bg-cover bg-center bg-no-repeat bg-fixed z-[-1]" style="background-image: url('./assets/images/hero-main.webp');"> -->
+<section class="py-20 sm:py-16 lg:py-2">
     
         <!-- <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div class="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
@@ -76,7 +76,7 @@
     </section>
 
 
-    <section class="py-10 sm:py-16 lg:py-24">
+    <!-- <section class="py-10 sm:py-16 lg:py-24">
         <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 place-items-center">
             <div>
@@ -90,7 +90,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
 
     
@@ -101,8 +101,6 @@
 
     <section id="about" class="py-10 sm:py-16 lg:py-24 relative w-full min-h-[100vh] bg-cover bg-center bg-no-repeat bg-fixed z-[-1]" style="background-image: url('./assets/images/hero-main.webp');">
         <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-
-
             <section class="py-10 sm:py-16 lg:py-24">
                 <div class="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
                     <div class="grid items-center md:grid-cols-2 gap-y-10 md:gap-x-20">
@@ -119,19 +117,17 @@
                         </div>
                     </div>
                 </div>
-            </section>
-            
-
+            </section>      
+          </div>
+    </section>
 
    
            
-              
-
 
 <section class="">
     <div class="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
         <div class="max-w-2xl mx-auto text-center">
-            <p class="mt-3 text-xl leading-relaxed text-gray-600 md:mt-8">KEYPOINTS</p>
+            <!-- <p class="mt-3 text-xl leading-relaxed text-gray-600 md:mt-8">KEYPOINTS</p> -->
         </div>
 
         <div class="grid grid-cols-1 gap-8 mt-10 text-center lg:mt-24 sm:gap-x-8 md:grid-cols-4">
@@ -377,6 +373,9 @@
             </div>
             <div>
                 <img class="w-full" src="./assets/images/sp7.jpeg" alt="Speaker" />
+            </div>
+            <div>
+                <img class="w-full" src="./assets/images/sp8.jpeg" alt="Speaker" />
             </div>
         </div>
     </div>
