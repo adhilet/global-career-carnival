@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" type="text/css" href="./assets/slick/slick.css"/>
     <link rel="stylesheet" href="./assets/css/style.css">
     <script src="p5.min.js"></script>
     <script src="vanta.topology.min.js"></script>
@@ -18,7 +19,6 @@
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
         <img src="./assets/images/nav-logo.png" class="w-24" alt="Logo">
-        <!-- <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Global</span> -->
     </a>
     <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
         <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"><a href="#registernow">Register Now</a></button>
@@ -55,30 +55,27 @@
     </div>
   </nav>
   
-    <section class="py-20 sm:py-16 lg:py-24 relative w-full min-h-[100vh] bg-cover bg-center bg-no-repeat bg-fixed z-[-1]" style="background-image: url('./assets/images/hero-main.webp');">
-        <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+    <!-- <section class="py-20 sm:py-16 lg:py-24 relative w-full min-h-[100vh] bg-cover bg-center bg-no-repeat bg-fixed z-[-1]" style="background-image: url('./assets/images/hero-main.webp');"> -->
+        <section class="py-20 sm:py-16 lg:py-2 relative w-full">
+    
+        <!-- <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div class="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
                 <div>
-                    <!-- <h1 class="mt-4 text-4xl font-bold text-black lg:mt-8 sm:text-6xl xl:text-8xl">Global Career Carnival</h1> -->
                     <img src="./assets/images/hero-logo.png" alt="hero logo">
                     <p class="mt-4 text-base text-black lg:mt-8 sm:text-xl">Be part of an event that empowers the next generation with career insights, industry trends, and networking opportunities.</p>
-
-                    <!-- <a href="https://forms.gle/7XvgyXiTHbJozhkB8" class="inline-flex items-center px-6 py-4 mt-8 font-semibold text-black transition-all duration-200 bg-yellow-300 rounded-full lg:mt-16 hover:bg-yellow-400 focus:bg-yellow-400" role="button">
-                        Register Now
-                        <svg class="w-6 h-6 ml-8 -mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                    </a> -->
-                   
-
                 </div>
                 <div>
-                    <img class="w-full" src="./assets/images/hero-right.webp" alt=""" />
-                    <!-- <img class="w-full" src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/1/hero-img.png alt="" /> -->
+                    <img class="w-full" src="./assets/images/hero-right.webp" alt="hero"/>
                 </div>
             </div>
+        </div> -->
+
+        <div class="w-full">
+            <img src="./assets/images/banner.png" alt="">
         </div>
     </section>
+
+
 
 
     <section id="about" class="py-10 sm:py-16 lg:py-24 relative w-full min-h-[100vh] bg-cover bg-center bg-no-repeat bg-fixed z-[-1]" style="background-image: url('./assets/images/hero-main.webp');">
@@ -91,7 +88,6 @@
                         <div class="pr-12 sm:pr-0">
                             <div class="relative max-w-xs mb-12">
                                 <img class="object-bottom rounded-md" src="./assets/images/about-avatar.webp" alt="About" />
-            
                                 <!-- <img class="absolute origin-bottom-right scale-75 rounded-md -bottom-12 -right-12" src="https://cdn.rareblocks.xyz/collection/celebration/images/features/4/smiling-businessman.jpg" alt="" /> -->
                             </div>
                         </div>
@@ -150,7 +146,6 @@
 <section class="">
     <div class="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
         <div class="max-w-2xl mx-auto text-center">
-            <!-- <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">ONE CARNIVAL <span class="font-bold">ENDLESS CAREER</span> </h2> -->
             <p class="mt-3 text-xl leading-relaxed text-gray-600 md:mt-8">KEYPOINTS</p>
         </div>
 
@@ -160,7 +155,7 @@
                     <span class="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-600 to-blue-600"> 100+ </span>
                 </h3>
                 <p class="mt-4 text-xl font-medium text-gray-900">Career Paths</p>
-                <!-- <p class="text-base mt-0.5 text-gray-500">Creating the successful path</p> -->
+                <!-- <p class="text-base mt-0.5 text-gray-500"></p> -->
             </div>
 
             <div>
@@ -168,7 +163,7 @@
                     <span class="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-600 to-blue-600"> 5000+ </span>
                 </h3>
                 <p class="mt-4 text-xl font-medium text-gray-900">Students Participants</p>
-                <!-- <p class="text-base mt-0.5 text-gray-500">In last 6 years</p> -->
+                <!-- <p class="text-base mt-0.5 text-gray-500"></p> -->
             </div>
 
             <div>
@@ -176,14 +171,14 @@
                     <span class="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-600 to-blue-600"> 75+ </span>
                 </h3>
                 <p class="mt-4 text-xl font-medium text-gray-900">Career & Industry Stalls</p>
-                <!-- <p class="text-base mt-0.5 text-gray-500">Working for your success</p> -->
+                <!-- <p class="text-base mt-0.5 text-gray-500"></p> -->
             </div>
             <div>
                 <h3 class="font-bold text-7xl">
                     <span class="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-600 to-blue-600"> 25+ </span>
                 </h3>
                 <p class="mt-4 text-xl font-medium text-gray-900">Expert-Led Sessions</p>
-                <!-- <p class="text-base mt-0.5 text-gray-500">Working for your success</p> -->
+                <!-- <p class="text-base mt-0.5 text-gray-500"></p> -->
             </div>
         </div>
     </div>
@@ -364,6 +359,14 @@
             <p class="max-w-2xl mx-auto mt-4 text-xl text-gray-600">Inspiring voices from diverse fields, sharing insights that spark ideas and drive change.</p>
         </div>
 
+
+        <!-- <div class="slider">
+            <div>your content</div>
+            <div>your content</div>
+            <div>your content</div>
+        </div> -->
+				
+
         <div class="grid grid-cols-1 gap-6 mt-8 sm:grid-cols-3 md:mt-16 lg:gap-x-12">
             <div>
                 <img class="w-full" src="./assets/images/sp1.jpeg" alt="Speaker" />
@@ -383,10 +386,10 @@
             <div>
                 <img class="w-full" src="./assets/images/sp5.jpeg" alt="Speaker" />
             </div>
-            <!-- 
+            
             <div>
-                <img class="w-full" src="./assets/images/sp6.jpeg" alt="" />
-            </div> -->
+                <img class="w-full" src="./assets/images/sp6.jpeg" alt="Speaker" />
+            </div>
             <div>
                 <img class="w-full" src="./assets/images/sp7.jpeg" alt="Speaker" />
             </div>
@@ -549,6 +552,11 @@
             </div>
         </div>
     </section>
+
+
+    <div>
+        <img class="w-full" src="./assets/images/header.jpeg" alt="Header"/>
+    </div>
 
     <section id="contact" class="py-10 bg-gray-100 sm:py-16 lg:py-24">
         <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
@@ -806,9 +814,14 @@
             </div>
         </div>
     </section>
+
+   
     
     
 <script src="./assets/js/script.js"></script>
+<!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script> -->
 <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
 </body>
 </html>
