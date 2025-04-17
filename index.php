@@ -16,9 +16,9 @@
 
 <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-    <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <!-- <img src="./assets/images/nav-logo.png" class="w-24" alt="Logo"> -->
-        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Global</span>
+    <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="./assets/images/nav-logo.png" class="w-24" alt="Logo">
+        <!-- <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Global</span> -->
     </a>
     <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
         <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"><a href="#registernow">Register Now</a></button>
@@ -55,9 +55,6 @@
     </div>
   </nav>
   
-  
-
-    <!-- <div id="hero"></div> -->
     <section class="py-20 sm:py-16 lg:py-24 relative w-full min-h-[100vh] bg-cover bg-center bg-no-repeat bg-fixed z-[-1]" style="background-image: url('./assets/images/hero-main.webp');">
         <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div class="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
@@ -76,6 +73,7 @@
 
                 </div>
                 <div>
+                    <!-- <img class="w-full" src="./assets/images/gcc1.png" alt="" /> -->
                     <img class="w-full" src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/1/hero-img.png" alt="" />
                 </div>
             </div>
@@ -368,29 +366,29 @@
 
         <div class="grid grid-cols-1 gap-6 mt-8 sm:grid-cols-3 md:mt-16 lg:gap-x-12">
             <div>
-                <img class="w-full" src="./assets/images/sp1.jpeg" alt="" />
+                <img class="w-full" src="./assets/images/sp1.jpeg" alt="Speaker" />
             </div>
 
             <div>
-                <img class="w-full" src="./assets/images/sp2.jpeg" alt="" />
+                <img class="w-full" src="./assets/images/sp2.jpeg" alt="Speaker" />
             </div>
 
             <div>
-                <img class="w-full" src="./assets/images/sp3.jpeg" alt="" />
+                <img class="w-full" src="./assets/images/sp3.jpeg" alt="Speaker" />
             </div>
             <div>
-                <img class="w-full" src="./assets/images/sp4.jpeg" alt="" />
+                <img class="w-full" src="./assets/images/sp4.jpeg" alt="Speaker" />
             </div>
 
             <div>
-                <img class="w-full" src="./assets/images/sp5.jpeg" alt="" />
+                <img class="w-full" src="./assets/images/sp5.jpeg" alt="Speaker" />
             </div>
-<!-- 
+            <!-- 
             <div>
                 <img class="w-full" src="./assets/images/sp6.jpeg" alt="" />
             </div> -->
             <div>
-                <img class="w-full" src="./assets/images/sp7.jpeg" alt="" />
+                <img class="w-full" src="./assets/images/sp7.jpeg" alt="Speaker" />
             </div>
         </div>
     </div>
@@ -453,10 +451,33 @@
                     </div>  
                 </div>
                 
-                
-                <!-- form -->
+                <header>
+
+    <div class="relative bg-black">
+        <div class="absolute inset-0">
+            <img class="object-cover w-full h-full" src="https://cdn.rareblocks.xyz/collection/celebration/images/headers/3/coworking-space.jpg" alt="" />
+        </div>
+
+        <div class="absolute inset-0 bg-black/30"></div>
+    </div>
+
+    <!-- xs to lg -->
+    <nav class="flex flex-col justify-between w-full max-w-xs min-h-screen px-4 py-10 bg-black sm:px-6 lg:hidden">
+        <button type="button" class="inline-flex p-2 text-white transition-all duration-200 rounded-md focus:bg-gray-800 hover:bg-gray-800">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+        </button>
+
+    </nav>
+</header>
+
+
+
+
+
     
-                <form action="submit.php" method="POST" class="max-w-4xl mx-auto my-14 p-8 bg-white shadow-md rounded-lg">
+<form action="submit.php" method="POST" class="max-w-4xl mx-auto my-14 p-8 bg-white shadow-md rounded-lg">
   <div>
     <div class="border-b border-gray-900/10 pb-12">
         <p class="mt-1 text-gray-600 text-2xl font-bold">Global Career Carnival 2025</p>
@@ -690,79 +711,79 @@
         <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
             <div class="grid grid-cols-2 gap-x-5 gap-y-12 md:grid-cols-4 md:gap-x-12">
                 <div>
-                    <p class="text-base text-gray-500">Company</p>
+                    <!-- <p class="text-base text-gray-500"></p>
     
                     <ul class="mt-8 space-y-4">
                         <li>
-                            <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> About </a>
+                            <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"></a>
                         </li>
                         <li>
-                            <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Features </a>
+                            <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"></a>
                         </li>
                         <li>
-                            <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Works </a>
+                            <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"></a>
                         </li>
                         <li>
-                            <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Career </a>
+                            <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"></a>
                         </li>
-                    </ul>
+                    </ul> -->
                 </div>
     
                 <div>
-                    <p class="text-base text-gray-500">Help</p>
+                    <!-- <p class="text-base text-gray-500"></p>
     
                     <ul class="mt-8 space-y-4">
                         <li>
-                            <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Customer Support </a>
+                            <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"></a>
                         </li>
                         <li>
-                            <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Delivery Details </a>
+                            <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"></a>
                         </li>
                         <li>
-                            <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Terms & Conditions </a>
+                            <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"></a>
                         </li>
                         <li>
-                            <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Privacy Policy </a>
+                            <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"></a>
                         </li>
-                    </ul>
+                    </ul> -->
                 </div>
     
                 <div>
-                    <p class="text-base text-gray-500">Resources</p>
+                    <!-- <p class="text-base text-gray-500"></p>
     
                     <ul class="mt-8 space-y-4">
                         <li>
-                            <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Free eBooks </a>
+                            <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"></a>
                         </li>
                         <li>
-                            <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Development Tutorial </a>
+                            <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"></a>
                         </li>
                         <li>
-                            <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> How to - Blog </a>
+                            <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"></a>
                         </li>
                         <li>
-                            <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> YouTube Playlist </a>
+                            <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"></a>
                         </li>
-                    </ul>
+                    </ul> -->
                 </div>
     
                 <div>
-                    <p class="text-base text-gray-500">Extra Links</p>
+                    <!-- <p class="text-base text-gray-500"></p>
     
                     <ul class="mt-8 space-y-4">
                         <li>
-                            <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Customer Support </a>
+                            <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"></a>
                         </li>
                         <li>
-                            <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Delivery Details </a>
+                            <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"></a>
                         </li>
                         <li>
-                            <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Terms & Conditions </a>
+                            <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"></a>
                         </li>
                         <li>
-                            <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Privacy Policy </a>
+                            <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"></a>
                         </li>
-                    </ul>
+                    </ul> -->
                 </div>
             </div>
     
