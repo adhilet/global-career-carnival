@@ -9,7 +9,7 @@ $message = $_POST['message'];
 
 // Insert query
 $sql = "INSERT INTO form_submission (name,email,phone,company,message) 
-        VALUES ('$name', '$email', '$email', '$phone', '$company', '$message')";
+        VALUES ('$name', '$email', '$phone','$company','$message')";
 
 if ($conn->query($sql) === TRUE) {
   echo "<script>
