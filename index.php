@@ -429,7 +429,7 @@
 
 
 
-    <section id="registernow" class="py-10 bg-white sm:py-16 lg:py-24">
+    <section id="registernow1" class="py-10 bg-white sm:py-16 lg:py-24">
         <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
             <div class="max-w-2xl mx-auto text-center">
                 <div class="flex items-center justify-center">
@@ -486,7 +486,7 @@
 
 
     
-<form action="submit.php" method="POST" class="max-w-4xl mx-auto my-14 p-8 bg-white shadow-md rounded-lg">
+<form id="registernow" action="submit.php" method="POST" class="max-w-4xl mx-auto my-14 p-8 bg-white shadow-md rounded-lg">
   <div>
     <div class="border-b border-gray-900/10 pb-12">
         <p class="mt-1 text-gray-600 text-2xl font-bold">Global Career Carnival 2025</p>
