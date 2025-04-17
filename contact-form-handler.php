@@ -1,36 +1,14 @@
 <?php
+require_once 'config.php';
 
-$host = "localhost"; 
-$user = "u342666704_gcc"; 
-$pass = "Gcc@2025"; 
-$db   = "u342666704_careercarnival"; 
 
-// Connect to DB
-$conn = mysqli_connect($host, $user, $pass, $db);
 
-// Check connection
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
+// Prepare and bind
+$stmt = $conn->prepare("INSERT INTO form_submission (name, email, phone, company, message) VALUES (?, ?, ?, ?, ?)");
+$stmt->bind_param("sssss", $name, $email, $phone, $company, $message);
 
-// Get form data & sanitize
-$name = trim($_POST['name']);
-$email = trim($_POST['email']);
-$phone = trim($_POST['phone']);
-$company = trim($_POST['company']);
-$message = trim($_POST['message']);
-
-// Prepare SQL query
-$sql = "INSERT INTO `form_submission` (name, email, phone, company, message) VALUES (?, ?, ?, ?, ?)";
-
-// Initialize statement
-$stmt = mysqli_prepare($conn, $sql);
-
-// Bind parameters to the statement
-mysqli_stmt_bind_param($stmt, "sssss", $name, $email, $phone, $company, $message);
-
-// Execute the statement
-if (mysqli_stmt_execute($stmt)) {
+// Execute and check
+if ($stmt->execute()) {
     echo "<script>
         alert('✅ Message sent successfully! We’ll get back to you soon.');
         window.location.href = '/';
@@ -42,7 +20,26 @@ if (mysqli_stmt_execute($stmt)) {
     </script>";
 }
 
-// Close statement and connection
-mysqli_stmt_close($stmt);
-mysqli_close($conn);
+
+$name = $_POST['name'];
+$email = $_POST['email'];
+$phone = $_POST['phone'];
+$company = $_POST['company'];
+$message = $_POST['message'];
+
+// Insert query
+$sql = "INSERT INTO form_submission (name,email,phone,company,message) 
+        VALUES ('$name', '$email', '$email', '$phone', '$company', '$message')";
+
+if ($conn->query($sql) === TRUE) {
+  echo "<script>
+    alert('🎉 Registration successful! We’ll get in touch with you soon.');
+    window.location.href = '/';
+  </script>";
+} else {
+  echo "Error: " . $sql . "<br>" . $conn->error;
+}
+
+
+$conn->close();
 ?>

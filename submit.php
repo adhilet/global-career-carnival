@@ -1,17 +1,6 @@
 <?php
-// DB config
-$host = "localhost"; // or your DB host
-$user = "u342666704_gcc"; // your DB user
-$pass = "Gcc@2025"; // your DB password
-$db   = "u342666704_careercarnival"; // your DB name
 
-// Create connection
-$conn = new mysqli($host, $user, $pass, $db);
-
-// Check connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
+require_once 'config.php';
 
 // Get form data
 $firstName = $_POST['first-name'];
