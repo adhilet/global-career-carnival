@@ -363,7 +363,7 @@
     <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div class="max-w-3xl mx-auto text-center">
             <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl lg:leading-tight">Speakers</h2>
-            <p class="max-w-2xl mx-auto mt-4 text-xl text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis.</p>
+            <p class="max-w-2xl mx-auto mt-4 text-xl text-gray-600">Inspiring voices from diverse fields, sharing insights that spark ideas and drive change.</p>
         </div>
 
         <div class="grid grid-cols-1 gap-6 mt-8 sm:grid-cols-3 md:mt-16 lg:gap-x-12">
@@ -450,13 +450,13 @@
                             <h3 class="text-xl font-semibold text-black">Premium Packages Available</h3>
                             <p class="mt-1.5 text-base text-gray-600">For Exhibitors & Sponsors:</p>
                         </div>
-                    </div>
+                    </div>  
                 </div>
                 
                 
                 <!-- form -->
     
-                <form class="max-w-4xl mx-auto my-14 p-8 bg-white shadow-md rounded-lg">
+                <form action="submit.php" method="POST" class="max-w-4xl mx-auto my-14 p-8 bg-white shadow-md rounded-lg">
   <div>
     <div class="border-b border-gray-900/10 pb-12">
         <p class="mt-1 text-gray-600 text-2xl font-bold">Global Career Carnival 2025</p>
@@ -466,28 +466,28 @@
         <div class="sm:col-span-3">
           <label for="first-name" class="block text-sm/6 font-medium text-gray-900">First name</label>
           <div class="mt-2">
-            <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
+            <input type="text" name="first-name" id="first-name" required class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
           </div>
         </div>
 
         <div class="sm:col-span-3">
           <label for="last-name" class="block text-sm/6 font-medium text-gray-900">Last name</label>
           <div class="mt-2">
-            <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
+            <input type="text" name="last-name" id="last-name" class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
           </div>
         </div>
 
         <div class="sm:col-span-3">
           <label for="email-address" class="block text-sm/6 font-medium text-gray-900">Email Address</label>
           <div class="mt-2">
-            <input type="email" name="email-address" id="email-address" class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
+            <input type="email" name="email-address" id="email-address" required class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
           </div>
         </div>
 
         <div class="sm:col-span-3">
           <label for="phone-number" class="block text-sm/6 font-medium text-gray-900">Phone Number</label>
           <div class="mt-2">
-            <input type="tel" name="phone-number" id="phone-number" autocomplete="family-name" class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
+            <input type="tel" name="phone-number" id="phone-number" required class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
           </div>
         </div>
       
@@ -495,11 +495,12 @@
         <div class="sm:col-span-3">
           <label for="qualification" class="block text-sm/6 font-medium text-gray-900">Qualification</label>
           <div class="mt-2 grid grid-cols-1">
-            <select id="qualification" name="qualification" class="col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-1.5 pr-8 pl-3 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
-              <option>SSLC</option>
-              <option>+2</option>
-              <option>UG</option>
-              <option>PG</option>
+            <select id="qualification" name="qualification" required class="col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-1.5 pr-8 pl-3 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
+              <option value="SSLC">SSLC</option>
+              <option value="+2">+2</option>
+              <option value="UG">UG</option>
+              <option value="PG">PG</option>
+              <option value="Other">Other</option>
             </select>
             <svg class="pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end text-gray-500 sm:size-4" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" data-slot="icon">
               <path fill-rule="evenodd" d="M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
@@ -531,7 +532,7 @@
         <div class="col-span-full">
           <label for="place" class="block text-sm/6 font-medium text-gray-900">Place</label>
           <div class="mt-2">
-            <input type="text" name="place" id="place" class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
+            <input type="text" name="place" required id="place" class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
           </div>
         </div>
       </div>
@@ -539,12 +540,12 @@
   </div>
 
   <div class="mt-6 flex items-center justify-end gap-x-6">
-    <button type="button" class="text-sm/6 font-semibold text-gray-900">Cancel</button>
-    <button type="submit" class="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Save</button>
+    <button type="reset" class="text-sm/6 font-semibold text-gray-900">Reset</button>
+    <button type="submit" class="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Register</button>
   </div>
 </form>
 
-                <!-- form -->
+            
     
             </div>
         </div>
@@ -802,7 +803,7 @@
                     </li>
                 </ul>
     
-                <p class="w-full mt-8 text-sm text-center text-gray-100 md:mt-0 md:w-auto md:order-2">© Copyright 2021, All Rights Reserved</p>
+                <p class="w-full mt-8 text-sm text-center text-gray-100 md:mt-0 md:w-auto md:order-2">© Copyright 2025, All Rights Reserved</p>
             </div>
         </div>
     </section>
