@@ -728,9 +728,9 @@
                         <form action="contact-form-handler.php" method="POST" class="mt-14">
                             <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-4">
                                 <div>
-                                    <label for="" class="text-base font-medium text-gray-900"> Your name </label>
+                                    <label for="name" class="text-base font-medium text-gray-900"> Your name </label>
                                     <div class="mt-2.5 relative">
-                                        <input type="text" name="" id="" placeholder="Enter your full name"
+                                        <input type="text" name="name" id="name" placeholder="Enter your full name"
                                             class="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600" />
                                     </div>
                                 </div>
