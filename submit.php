@@ -1,9 +1,9 @@
 <?php
 // DB config
 $host = "localhost"; // or your DB host
-$user = "root"; // your DB user
-$pass = ""; // your DB password
-$db   = "gcc"; // your DB name
+$user = "u342666704_gcc"; // your DB user
+$pass = "Gcc@2025"; // your DB password
+$db   = "u342666704_careercarnival"; // your DB name
 
 // Create connection
 $conn = new mysqli($host, $user, $pass, $db);
