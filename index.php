@@ -159,8 +159,8 @@
         </div>
 
         <div class="container mx-auto 2xl:px-12">
-            <img class="w-full mt-6"
-                src="https://cdn.rareblocks.xyz/collection/celebration/images/team/4/group-of-people.png" alt="" />
+            <img class="w-full mt-2"
+                src="./assets/images/about-image.jpeg" alt="About" />
         </div>
 
     </section>
