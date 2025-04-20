@@ -147,7 +147,7 @@
 
 
     <!-- <section class="py-20 sm:py-16 lg:py-2 relative w-full min-h-[100vh] bg-cover bg-center bg-no-repeat bg-fixed z-[-1]" style="background-image: url('./assets/images/pattern.png');"></section> -->
-    <section class="pt-10 sm:pt-16 lg:pt-24">
+    <section id="about" class="pt-10 sm:pt-16 lg:pt-24">
         <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
             <div class="max-w-2xl mx-auto text-center">
                 <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl lg:leading-tight">About

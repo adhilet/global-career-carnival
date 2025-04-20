@@ -13,7 +13,7 @@ $sql = "INSERT INTO form_submission (name,email,phone,company,message)
 
 if ($conn->query($sql) === TRUE) {
   echo "<script>
-    alert('🎉 Registration successful! We’ll get in touch with you soon.');
+    alert('🎉 Got it! Thanks for reaching out — we’ll be in touch soon!');
     window.location.href = '/';
   </script>";
 } else {
