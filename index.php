@@ -160,7 +160,7 @@
 
         <div class="container mx-auto 2xl:px-12">
             <img class="w-full mt-2"
-                src="./assets/images/about-image.jpeg" alt="About" />
+                src="./assets/images/about-section-image.png" alt="About" />
         </div>
 
     </section>
