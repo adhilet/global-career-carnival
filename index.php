@@ -337,7 +337,7 @@
 
 
     <section id="whyattend" class="py-10 bg-gray-50 sm:py-16 lg:py-8">
-        <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div class="px- mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div class="max-w-xl mx-auto text-center">
                 <div class="inline-flex px-4 py-1.5 mx-auto rounded-full bg-gradient-to-r from-fuchsia-600 to-blue-600">
                     <p class="text-xs font-semibold tracking-widest text-white">Global Career Carnival 2025</p>
@@ -471,32 +471,32 @@
             </div>
             <div class="grid grid-cols-1 gap-6 mt-8 sm:grid-cols-3 md:mt-16 lg:gap-x-12">
                 <div>
-                    <img class="w-full" src="./assets/images/sp1.jpeg" alt="Speaker" />
+                    <img class="w-full" src="./assets/images/sp1.jpg" alt="Speaker" />
                 </div>
 
                 <div>
-                    <img class="w-full" src="./assets/images/sp2.jpeg" alt="Speaker" />
+                    <img class="w-full" src="./assets/images/sp2.jpg" alt="Speaker" />
                 </div>
 
                 <div>
-                    <img class="w-full" src="./assets/images/sp3.jpeg" alt="Speaker" />
+                    <img class="w-full" src="./assets/images/sp3.jpg" alt="Speaker" />
                 </div>
                 <div>
-                    <img class="w-full" src="./assets/images/sp4.jpeg" alt="Speaker" />
-                </div>
-
-                <div>
-                    <img class="w-full" src="./assets/images/sp5.jpeg" alt="Speaker" />
+                    <img class="w-full" src="./assets/images/sp4.jpg" alt="Speaker" />
                 </div>
 
                 <div>
-                    <img class="w-full" src="./assets/images/sp6.jpeg" alt="Speaker" />
+                    <img class="w-full" src="./assets/images/sp5.jpg" alt="Speaker" />
+                </div>
+
+                <div>
+                    <img class="w-full" src="./assets/images/sp6.jpg" alt="Speaker" />
                 </div>
                 <div>
-                    <img class="w-full" src="./assets/images/sp7.jpeg" alt="Speaker" />
+                    <img class="w-full" src="./assets/images/sp7.jpg" alt="Speaker" />
                 </div>
                 <div>
-                    <img class="w-full" src="./assets/images/sp8.jpeg" alt="Speaker" />
+                    <img class="w-full" src="./assets/images/sp8.jpg" alt="Speaker" />
                 </div>
             </div>
         </div>
