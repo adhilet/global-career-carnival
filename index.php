@@ -336,7 +336,7 @@
 
 
 
-    <section id="whyattend" class="py-10 bg-gray-50 sm:py-16 lg:py-24">
+    <section id="whyattend" class="py-10 bg-gray-50 sm:py-16 lg:py-8">
         <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div class="max-w-xl mx-auto text-center">
                 <div class="inline-flex px-4 py-1.5 mx-auto rounded-full bg-gradient-to-r from-fuchsia-600 to-blue-600">
