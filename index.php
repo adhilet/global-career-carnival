@@ -92,14 +92,14 @@
         </div>
     </section>
 
+    <!-- <section class="py-20 sm:py-16 lg:py-2 relative w-full min-h-[100vh] bg-cover bg-center bg-no-repeat bg-fixed z-[-1]" style="background-image: url('./assets/images/');"> -->
 
-    <section class="py-10 bg-white sm:py-16 lg:py-24">
-        <!-- <section class="py-20 sm:py-16 lg:py-2 relative w-full min-h-[100vh] bg-cover bg-center bg-no-repeat bg-fixed z-[-1]" style="background-image: url('./assets/images/');"> -->
+    <!-- <section class="py-10 bg-white sm:py-16 lg:py-24">
 
         <div class="px-4 mx-auto max-w-4xl sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 gap-y-12 text-center md:grid-cols-2 md:gap-12 place-items-center">
 
-                <!-- Date -->
+               
                 <div>
                     <div class="flex items-center justify-center w-20 h-20 mx-auto bg-blue-100 rounded-full">
                         <img src="./assets/images/icons-date.png" alt="Date Icon" class="w-9 h-9">
@@ -109,7 +109,6 @@
                     </h3>
                 </div>
 
-                <!-- Location -->
                 <div>
                     <div class="flex items-center justify-center w-20 h-20 mx-auto bg-green-100 rounded-full">
                         <img src="./assets/images/icons-location.png" alt="Location Icon" class="w-9 h-9">
@@ -121,8 +120,37 @@
 
             </div>
         </div>
-    </section>
+    </section> -->
 
+
+    <section class="py-10 bg-white sm:py-16 lg:py-24 relative bg-cover bg-center bg-no-repeat bg-fixed" style="background-image: url('./assets/images/pattern.png');">
+        <div class="px-4 mx-auto max-w-4xl sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 gap-y-12 text-center md:grid-cols-2 md:gap-12 place-items-center">
+    
+                <!-- Date -->
+                <div>
+                    <div class="flex items-center justify-center w-20 h-20 mx-auto bg-blue-100 rounded-full">
+                        <img src="./assets/images/icons-date.png" alt="Date Icon" class="w-9 h-9">
+                    </div>
+                    <h3 class="mt-6 text-lg font-semibold text-black leading-snug">
+                        13 - 14 <br> May 2025
+                    </h3>
+                </div>
+    
+                <!-- Location -->
+                <div>
+                    <div class="flex items-center justify-center w-20 h-20 mx-auto bg-green-100 rounded-full">
+                        <img src="./assets/images/icons-location.png" alt="Location Icon" class="w-9 h-9">
+                    </div>
+                    <h3 class="mt-6 text-lg font-semibold text-black leading-snug">
+                        Rozia International <br> Convention Centre
+                    </h3>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+    
 
 
 
