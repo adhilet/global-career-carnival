@@ -16,19 +16,18 @@
     <script src="p5.min.js"></script>
     <script src="vanta.topology.min.js"></script>
 </head>
-
 <body>
 
     <nav
         class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <a href="https://globalcareercarnival.in/" class="flex items-center space-x-3 rtl:space-x-reverse">
                 <img src="./assets/images/nav-logo-black.png" class="h-12 w-auto" alt="Logo">
             </a>
             <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
                 <button type="button"
                     class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"><a
-                        href="#registernow">Register Now</a></button>
+                        href="https://globalcareercarnival.in/registration.php">Register Now</a></button>
                 <button data-collapse-toggle="navbar-sticky" type="button"
                     class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                     aria-controls="navbar-sticky" aria-expanded="false">
@@ -74,13 +73,6 @@
             </div>
         </div>
     </nav>
-
-
-    <!-- <section class="py-20 sm:py-16 lg:py-2">
-        <div class="w-full">
-            <img src="./assets/images/banner.png" alt="">
-        </div>
-    </section> -->
 
     <section class="py-20 sm:py-16 lg:py-0">
         <div class="w-full">
@@ -502,200 +494,6 @@
         </div>
     </section>
 
-
-
-
-
-    <section id="registernow1" class="py-10 bg-white sm:py-16 lg:py-24">
-        <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-            <div class="max-w-2xl mx-auto text-center">
-                <div class="flex items-center justify-center">
-                    <div class="w-20 h-20 -mr-6 overflow-hidden bg-gray-300 rounded-full">
-                        <img class="object-cover w-full h-full"
-                            src="https://cdn.rareblocks.xyz/collection/celebration/images/cta/2/female-avatar-1.jpg"
-                            alt="" />
-                    </div>
-
-                    <div class="relative overflow-hidden bg-gray-300 border-8 border-white rounded-full w-28 h-28">
-                        <img class="object-cover w-full h-full"
-                            src="https://cdn.rareblocks.xyz/collection/celebration/images/cta/2/male-avatar-1.jpg"
-                            alt="" />
-                    </div>
-
-                    <div class="w-20 h-20 -ml-6 overflow-hidden bg-gray-300 rounded-full">
-                        <img class="object-cover w-full h-full"
-                            src="https://cdn.rareblocks.xyz/collection/celebration/images/cta/2/female-avatar-2.jpg"
-                            alt="" />
-                    </div>
-                </div>
-
-                <h2 class="mt-8 text-3xl font-bold leading-tight text-black lg:mt-12 sm:text-4xl lg:text-5xl"><span
-                        class="border-b-8 border-yellow-300">Register Now!</span></h2>
-                <p class="max-w-xl mx-auto mt-6 text-xl text-gray-600 md:mt-10">
-                    Secure your spot at the Global Career Carnival 2025!
-                </p>
-                <div
-                    class="mt-8 space-y-8 sm:space-x-12 sm:mt-12 sm:flex sm:items-start sm:justify-center sm:space-y-0 md:space-x-20 lg:mt-20">
-                    <div class="flex items-start">
-                        <svg class="flex-shrink-0 text-orange-400 w-7 h-7" xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd"
-                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                clip-rule="evenodd" />
-                        </svg>
-                        <div class="ml-4">
-                            <h3 class="text-xl font-semibold text-black">Free Entry!</h3>
-                            <p class="mt-1.5 text-base text-gray-600">For Students:</p>
-                        </div>
-                    </div>
-
-                    <div class="flex items-start">
-                        <svg class="flex-shrink-0 text-orange-400 w-7 h-7" xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd"
-                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                clip-rule="evenodd" />
-                        </svg>
-                        <div class="ml-4">
-                            <h3 class="text-xl font-semibold text-black">Special Group Access</h3>
-                            <p class="mt-1.5 text-base text-gray-600">For Educators & Institutions:</p>
-                        </div>
-                    </div>
-
-                    <div class="flex items-start">
-                        <svg class="flex-shrink-0 text-orange-400 w-7 h-7" xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd"
-                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                clip-rule="evenodd" />
-                        </svg>
-                        <div class="ml-4">
-                            <h3 class="text-xl font-semibold text-black">Premium Packages Available</h3>
-                            <p class="mt-1.5 text-base text-gray-600">For Exhibitors & Sponsors:</p>
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-
-                <form id="registernow" action="submit.php" method="POST"
-                    class="max-w-4xl mx-auto my-14 p-8 bg-white shadow-md rounded-lg">
-                    <div>
-                        <div class="border-b border-gray-900/10 pb-12">
-                            <p class="mt-1 text-gray-600 text-2xl font-bold">Global Career Carnival 2025</p>
-                            <h2 class="text-2xl leading-tight text-black sm:text-2xl lg:text-3xl">Registration Form</h2>
-
-                            <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6 text-left">
-                                <div class="sm:col-span-3">
-                                    <label for="first-name" class="block text-sm/6 font-medium text-gray-900">First
-                                        name</label>
-                                    <div class="mt-2">
-                                        <input type="text" name="first-name" id="first-name" required
-                                            class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
-                                    </div>
-                                </div>
-
-                                <div class="sm:col-span-3">
-                                    <label for="last-name" class="block text-sm/6 font-medium text-gray-900">Last
-                                        name</label>
-                                    <div class="mt-2">
-                                        <input type="text" name="last-name" id="last-name"
-                                            class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
-                                    </div>
-                                </div>
-
-                                <div class="sm:col-span-3">
-                                    <label for="email-address" class="block text-sm/6 font-medium text-gray-900">Email
-                                        Address</label>
-                                    <div class="mt-2">
-                                        <input type="email" name="email-address" id="email-address" required
-                                            class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
-                                    </div>
-                                </div>
-
-                                <div class="sm:col-span-3">
-                                    <label for="phone-number" class="block text-sm/6 font-medium text-gray-900">Phone
-                                        Number</label>
-                                    <div class="mt-2">
-                                        <input type="tel" name="phone-number" id="phone-number" required
-                                            class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
-                                    </div>
-                                </div>
-
-
-                                <div class="sm:col-span-3">
-                                    <label for="qualification"
-                                        class="block text-sm/6 font-medium text-gray-900">Qualification</label>
-                                    <div class="mt-2 grid grid-cols-1">
-                                        <select id="qualification" name="qualification" required
-                                            class="col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-1.5 pr-8 pl-3 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
-                                            <option value="SSLC">SSLC</option>
-                                            <option value="+2">+2</option>
-                                            <option value="UG">UG</option>
-                                            <option value="PG">PG</option>
-                                            <option value="Other">Other</option>
-                                        </select>
-                                        <svg class="pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end text-gray-500 sm:size-4"
-                                            viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" data-slot="icon">
-                                            <path fill-rule="evenodd"
-                                                d="M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z"
-                                                clip-rule="evenodd" />
-                                        </svg>
-                                    </div>
-                                </div>
-
-                                <div class="col-span-full">
-                                    <label for="school" class="block text-sm/6 font-medium text-gray-900">School /
-                                        College</label>
-                                    <div class="mt-2">
-                                        <input type="text" name="school" id="school"
-                                            class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
-                                    </div>
-                                </div>
-
-                                <div class="sm:col-span-3">
-                                    <label for="guardian-name"
-                                        class="block text-sm/6 font-medium text-gray-900">Guardian Name</label>
-                                    <div class="mt-2">
-                                        <input type="text" name="guardian-name" id="guardian-name"
-                                            class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
-                                    </div>
-                                </div>
-
-                                <div class="sm:col-span-3">
-                                    <label for="guardian-contact"
-                                        class="block text-sm/6 font-medium text-gray-900">Guardian Contact</label>
-                                    <div class="mt-2">
-                                        <input type="text" name="guardian-contact" id="guardian-contact"
-                                            class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
-                                    </div>
-                                </div>
-
-                                <div class="col-span-full">
-                                    <label for="place" class="block text-sm/6 font-medium text-gray-900">Place</label>
-                                    <div class="mt-2">
-                                        <input type="text" name="place" required id="place"
-                                            class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="mt-6 flex items-center justify-end gap-x-6">
-                        <button type="reset" class="text-sm/6 font-semibold text-gray-900">Reset</button>
-                        <button type="submit"
-                            class="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Register</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </section>
-
-
-
     <!-- Contact Us -->
 
     <section id="contact" class="py-10 bg-gray-100 sm:py-16 lg:py-24">
@@ -860,6 +658,10 @@
     <div>
         <img class="w-full" src="./assets/images/header.jpeg" alt="Header" />
     </div>
+
+
+
+
     <section class="py-10 bg-gray-900 sm:pt-16 lg:pt-24">
         <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
 
