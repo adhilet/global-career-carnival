@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Career Carnival</title>
+    <title>Register for Global Career Carnival 2025 | Free Entry for Students</title>
+    <meta name="description" content="Secure your spot at Global Career Carnival 2025. Free entry for students! Educators, institutions, and sponsors can register for special access and premium packages.">
+    <meta name="keywords" content="Global Career Carnival Registration, Student Career Event Signup, Free Career Expo Entry, Sponsor Booth Registration, Education Fair Kerala 2025">
+    <meta name="author" content="Global Career Carnival Team">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Register Now – Global Career Carnival 2025">
+    <meta property="og:description" content="Register online to attend Kerala’s biggest career event – free for students, exclusive options for sponsors.">
+    <meta property="og:url" content="https://globalcareercarnival.in/registration.php">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon/site.webmanifest">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" type="text/css" href="./assets/slick/slick.css" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <script src="p5.min.js"></script>
-    <script src="vanta.topology.min.js"></script>
 </head>
 <body>
 
     <nav
         class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-                <img src="./assets/images/nav-logo-black.png" class="h-12 w-auto" alt="Logo">
+            <a href="https://globalcareercarnival.in/" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img src="./assets/images/nav-logo-black.png" class="h-12 w-auto" alt="Logo - Global Career Carnival">
             </a>
             <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-                <!-- <button type="button"
-                    class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"><a
-                        href="https://globalcareercarnival.in/registration.php">Register Now</a></button> -->
                 <button data-collapse-toggle="navbar-sticky" type="button"
                     class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                     aria-controls="navbar-sticky" aria-expanded="false">

@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Career Carnival</title>
+    <title>Global Career Carnival 2025</title>
+    <meta name="description" content="Join over 5000 students, educators, and professionals at Global Career Carnival 2025 – a two-day career guidance and education summit at Rozia International Convention Centre, Malappuram.">
+    <meta name="keywords" content="Global Career Carnival, Career Fair 2025, Education Summit, Career Expo Kerala, Career Guidance, Student Career Event, Rozia Convention, NECT, CIGI">
+    <meta name="author" content="Global Career Carnival Team">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Global Career Carnival 2025">
+    <meta property="og:description" content="Explore your future at Kerala’s biggest career expo – 60+ stalls, expert talks, mentorship, and more.">
+    <meta property="og:url" content="https://globalcareercarnival.in/">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon/site.webmanifest">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" type="text/css" href="./assets/slick/slick.css" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <script src="p5.min.js"></script>
-    <script src="vanta.topology.min.js"></script>
 </head>
 <body>
 
@@ -22,7 +29,7 @@
         class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="https://globalcareercarnival.in/" class="flex items-center space-x-3 rtl:space-x-reverse">
-                <img src="./assets/images/nav-logo-black.png" class="h-12 w-auto" alt="Logo">
+                <img src="./assets/images/nav-logo-black.png" class="h-12 w-auto" alt="Logo - Global Career Carnival">
             </a>
             <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
                 <button type="button"
@@ -84,37 +91,6 @@
         </div>
     </section>
 
-    <!-- <section class="py-20 sm:py-16 lg:py-2 relative w-full min-h-[100vh] bg-cover bg-center bg-no-repeat bg-fixed z-[-1]" style="background-image: url('./assets/images/');"> -->
-
-    <!-- <section class="py-10 bg-white sm:py-16 lg:py-24">
-
-        <div class="px-4 mx-auto max-w-4xl sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 gap-y-12 text-center md:grid-cols-2 md:gap-12 place-items-center">
-
-               
-                <div>
-                    <div class="flex items-center justify-center w-20 h-20 mx-auto bg-blue-100 rounded-full">
-                        <img src="./assets/images/icons-date.png" alt="Date Icon" class="w-9 h-9">
-                    </div>
-                    <h3 class="mt-6 text-lg font-semibold text-black leading-snug">
-                        13 - 14 <br> May 2025
-                    </h3>
-                </div>
-
-                <div>
-                    <div class="flex items-center justify-center w-20 h-20 mx-auto bg-green-100 rounded-full">
-                        <img src="./assets/images/icons-location.png" alt="Location Icon" class="w-9 h-9">
-                    </div>
-                    <h3 class="mt-6 text-lg font-semibold text-black leading-snug">
-                        Rozia International <br> Convention Centre
-                    </h3>
-                </div>
-
-            </div>
-        </div>
-    </section> -->
-
-
     <section class="py-10 bg-white sm:py-16 lg:py-24 relative bg-cover bg-center bg-no-repeat bg-fixed" style="background-image: url('./assets/images/pattern.png');">
         <div class="px-4 mx-auto max-w-4xl sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 gap-y-12 text-center md:grid-cols-2 md:gap-12 place-items-center">
@@ -122,17 +98,15 @@
                 <!-- Date -->
                 <div>
                     <div class="flex items-center justify-center w-20 h-20 mx-auto bg-blue-100 rounded-full">
-                        <img src="./assets/images/icons-date.png" alt="Date Icon" class="w-9 h-9">
+                        <img src="./assets/images/icons-date.png" alt="Icon - Date" class="w-9 h-9">
                     </div>
                     <h3 class="mt-6 text-lg font-semibold text-black leading-snug">
                         13 - 14 <br> May 2025
                     </h3>
                 </div>
-    
-                <!-- Location -->
                 <div>
                     <div class="flex items-center justify-center w-20 h-20 mx-auto bg-green-100 rounded-full">
-                        <img src="./assets/images/icons-location.png" alt="Location Icon" class="w-9 h-9">
+                        <img src="./assets/images/icons-location.png" alt="Icon - Location" class="w-9 h-9">
                     </div>
                     <h3 class="mt-6 text-lg font-semibold text-black leading-snug">
                         Rozia International <br> Convention Centre
@@ -144,29 +118,6 @@
     </section>
     
 
-
-
-
-    <!-- <section class="py-10 sm:py-16 lg:py-24">
-        <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 place-items-center">
-            <div>
-              <img class="object-contain w-auto h-28" src="./assets/images/nect-logo.png" alt="Logo 1" />
-            </div>
-            <div>
-              <img class="object-contain w-auto h-28" src="./assets/images/aman-logo.png" alt="Logo 2" />
-            </div>
-            <div>
-              <img class="object-contain w-auto h-28" src="./assets/images/cigi-logo.png" alt="Logo 3" />
-            </div>
-          </div>
-        </div>
-      </section> -->
-
-
-
-
-    <!-- <section class="py-20 sm:py-16 lg:py-2 relative w-full min-h-[100vh] bg-cover bg-center bg-no-repeat bg-fixed z-[-1]" style="background-image: url('./assets/images/pattern.png');"></section> -->
     <section id="about" class="pt-10 sm:pt-16 lg:pt-24">
         <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
             <div class="max-w-2xl mx-auto text-center">
@@ -180,42 +131,16 @@
 
         <div class="container mx-auto 2xl:px-12">
             <img class="w-full mt-2"
-                src="./assets/images/about-section-image.png" alt="About" />
+                src="./assets/images/about-section-image.png" alt="Students and professionals attending Global Career Carnival Event" />
         </div>
-
     </section>
 
 
 
-
-    <!-- <section id="about" class="py-10 sm:py-16 lg:py-24 relative w-full min-h-[100vh] bg-cover bg-center bg-no-repeat bg-fixed z-[-1]" style="background-image: url('./assets/images/hero-main.webp');">
-        <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-            <section class="py-10 sm:py-16 lg:py-24">
-                <div class="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
-                    <div class="grid items-center md:grid-cols-2 gap-y-10 md:gap-x-20">
-                        <div class="pr-12 sm:pr-0">
-                            <div class="relative max-w-xs mb-12">
-                                <img class="object-bottom rounded-md" src="./assets/images/about-avatar.webp" alt="About" />
-                            </div>
-                        </div>
-            
-                        <div>
-                            <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">About the Event</h2>
-                            <p class="mt-4 text-base leading-relaxed text-gray-600">Join us at the Rozia International Convention Centre for the Global Career Carnival 2025, a transformative two-day event that bridges students, educators, and career aspirants with industry leaders, academic experts, and career guidance professionals.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>      
-          </div>
-    </section> -->
-
-
-
-
-    <section class="">
+    <section>
         <div class="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
             <div class="max-w-2xl mx-auto text-center">
-                <!-- <p class="mt-3 text-xl leading-relaxed text-gray-600 md:mt-8">KEYPOINTS</p> -->
+                <!-- <p class="mt-3 text-xl leading-relaxed text-gray-600 md:mt-8"></p> -->
             </div>
 
             <div class="grid grid-cols-1 gap-8 mt-10 text-center lg:mt-24 sm:gap-x-8 md:grid-cols-4">
@@ -225,7 +150,6 @@
                         </span>
                     </h3>
                     <p class="mt-4 text-xl font-medium text-gray-900">Career Paths</p>
-                    <!-- <p class="text-base mt-0.5 text-gray-500"></p> -->
                 </div>
 
                 <div>
@@ -234,7 +158,6 @@
                         </span>
                     </h3>
                     <p class="mt-4 text-xl font-medium text-gray-900">Students Participants</p>
-                    <!-- <p class="text-base mt-0.5 text-gray-500"></p> -->
                 </div>
 
                 <div>
@@ -243,7 +166,6 @@
                         </span>
                     </h3>
                     <p class="mt-4 text-xl font-medium text-gray-900">Career & Industry Stalls</p>
-                    <!-- <p class="text-base mt-0.5 text-gray-500"></p> -->
                 </div>
                 <div>
                     <h3 class="font-bold text-7xl">
@@ -251,7 +173,6 @@
                         </span>
                     </h3>
                     <p class="mt-4 text-xl font-medium text-gray-900">Expert-Led Sessions</p>
-                    <!-- <p class="text-base mt-0.5 text-gray-500"></p> -->
                 </div>
             </div>
         </div>
@@ -463,32 +384,32 @@
             </div>
             <div class="grid grid-cols-1 gap-6 mt-8 sm:grid-cols-3 md:mt-16 lg:gap-x-12">
                 <div>
-                    <img class="w-full" src="./assets/images/sp1.jpg" alt="Speaker" />
+                    <img class="w-full" src="./assets/images/sp1.jpg" alt="Speaker - Global Career Carnival" />
                 </div>
 
                 <div>
-                    <img class="w-full" src="./assets/images/sp2.jpg" alt="Speaker" />
+                    <img class="w-full" src="./assets/images/sp2.jpg" alt="Speaker - Global Career Carnival" />
                 </div>
 
                 <div>
-                    <img class="w-full" src="./assets/images/sp3.jpg" alt="Speaker" />
+                    <img class="w-full" src="./assets/images/sp3.jpg" alt="Speaker - Global Career Carnival" />
                 </div>
                 <div>
-                    <img class="w-full" src="./assets/images/sp4.jpg" alt="Speaker" />
-                </div>
-
-                <div>
-                    <img class="w-full" src="./assets/images/sp5.jpg" alt="Speaker" />
+                    <img class="w-full" src="./assets/images/sp4.jpg" alt="Speaker - Global Career Carnival" />
                 </div>
 
                 <div>
-                    <img class="w-full" src="./assets/images/sp6.jpg" alt="Speaker" />
+                    <img class="w-full" src="./assets/images/sp5.jpg" alt="Speaker - Global Career Carnival" />
+                </div>
+
+                <div>
+                    <img class="w-full" src="./assets/images/sp6.jpg" alt="Speaker - Global Career Carnival" />
                 </div>
                 <div>
-                    <img class="w-full" src="./assets/images/sp7.jpg" alt="Speaker" />
+                    <img class="w-full" src="./assets/images/sp7.jpg" alt="Speaker - Global Career Carnival" />
                 </div>
                 <div>
-                    <img class="w-full" src="./assets/images/sp8.jpg" alt="Speaker" />
+                    <img class="w-full" src="./assets/images/sp8.jpg" alt="Speaker - Global Career Carnival" />
                 </div>
             </div>
         </div>
@@ -724,10 +645,6 @@
         </div>
     </section>
     
-
-
-
-
     <script src="./assets/js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
 </body>

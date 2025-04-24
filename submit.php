@@ -2,7 +2,6 @@
 
 require_once 'config.php';
 
-// Get form data
 $firstName = $_POST['first-name'];
 $lastName = $_POST['last-name'];
 $email = $_POST['email-address'];
@@ -13,7 +12,6 @@ $guardianName = $_POST['guardian-name'];
 $guardianContact = $_POST['guardian-contact'];
 $place = $_POST['place'];
 
-// Insert query
 $sql = "INSERT INTO registrations (first_name, last_name, email, phone, qualification, school, guardian_name, guardian_contact, place) 
         VALUES ('$firstName', '$lastName', '$email', '$phone', '$qualification', '$school', '$guardianName', '$guardianContact', '$place')";
 
