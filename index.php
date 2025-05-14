@@ -84,10 +84,10 @@
     <section class="py-20 sm:py-16 lg:py-0">
         <div class="w-full">
             <!-- Mobile Banner -->
-            <img src="./assets/images/mobile_banner_gcc.jpg" alt="Mobile Banner" class="block lg:hidden w-full h-auto">
+            <img src="./assets/images/phone_banner.png" alt="Mobile Banner" class="block lg:hidden w-full h-auto">
 
             <!-- Desktop Banner -->
-            <img src="./assets/images/desktop_banner_gcc.jpg" alt="Desktop Banner" class="hidden lg:block w-full h-auto pt-8">
+            <img src="./assets/images/desk_banner.png" alt="Desktop Banner" class="hidden lg:block w-full h-auto pt-8">
         </div>
     </section>
 
