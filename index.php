@@ -84,10 +84,10 @@
     <section class="py-20 sm:py-16 lg:py-0">
         <div class="w-full">
             <!-- Mobile Banner -->
-            <img src="./assets/images/banner-mobile.png" alt="Mobile Banner" class="block lg:hidden w-full h-auto">
+            <img src="./assets/images/mobile_banner_gcc.jpg" alt="Mobile Banner" class="block lg:hidden w-full h-auto">
 
             <!-- Desktop Banner -->
-            <img src="./assets/images/banner.png" alt="Desktop Banner" class="hidden lg:block w-full h-auto">
+            <img src="./assets/images/desktop_banner_gcc.jpg" alt="Desktop Banner" class="hidden lg:block w-full h-auto pt-8">
         </div>
     </section>
 
@@ -101,7 +101,7 @@
                         <img src="./assets/images/icons-date.png" alt="Icon - Date" class="w-9 h-9">
                     </div>
                     <h3 class="mt-6 text-lg font-semibold text-black leading-snug">
-                        13 - 14 <br> May 2025
+                        27 <br> May 2025
                     </h3>
                 </div>
                 <div>
@@ -352,15 +352,15 @@
                     <div class="-ml-0.5 absolute mt-0.5 top-14 left-8 w-px border-l-4 border-dotted border-gray-300 h-full"
                         aria-hidden="true"></div>
 
-                    <div
+                    <!-- <div
                         class="relative flex items-center justify-center flex-shrink-0 w-16 h-16 bg-white rounded-full shadow">
                         <svg class="w-10 h-10 text-fuchsia-600" xmlns="http://www.w3.org/2000/svg" fill="none"
                             viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
                                 d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
                         </svg>
-                    </div>
-                    <div class="ml-6">
+                    </div> -->
+                    <!-- <div class="ml-6">
                         <h3 class="text-lg font-semibold text-black">Day 2</h3>
                         <ul class="mt-4 text-base text-gray-600 space-y-2">
                             <li>Industry-Specific Career Orientations</li>
@@ -368,7 +368,7 @@
                             <li>Networking & Counselling Sessions</li>
                             <li>Exhibitor Engagements</li>
                         </ul>
-                    </div>
+                    </div> -->
                 </li>
         </div>
     </section>
