@@ -22,3 +22,17 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  const qualificationSelect = document.getElementById('qualification');
+  const aplusesWrapper = document.getElementById('apluses-wrapper');
+
+  qualificationSelect.addEventListener('change', function () {
+      if (this.value === '+2') {
+          aplusesWrapper.classList.remove('hidden');
+      } else {
+          aplusesWrapper.classList.add('hidden');
+      }
+  });
+});

@@ -215,8 +215,34 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                     </div>
+
+
                                 </div>
 
+
+
+                                    <div id="apluses-wrapper" class="sm:col-span-3 hidden">
+                                    <label for="aplus-count" class="block text-sm/6 font-medium text-gray-900">
+                                        Number of A+
+                                    </label>
+                                    <div class="mt-2">
+                                        <select name="aplus-count" id="aplus-count"
+                                        class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
+                                        <option value="" disabled selected>Select count</option>
+                                        <option value="0">0</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        </select>
+                                    </div>
+                                    </div>
+
+
+
+                                
                                 <div class="col-span-full">
                                     <label for="school" class="block text-sm/6 font-medium text-gray-900">School /
                                         College</label>
