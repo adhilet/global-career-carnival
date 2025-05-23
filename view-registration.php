@@ -44,36 +44,28 @@ $result = $conn->query($sql);
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Registrations List</title>
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="./assets/favicon/site.webmanifest">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="./assets/css/style.css">
-  <style>
-    /* Make the table scroll horizontally on small screens */
-    .table-container {
-      overflow-x: auto;
-    }
-  </style>
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./assets/favicon/site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body class="bg-gray-50 p-6 font-sans text-gray-800">
 
   <h1 class="text-3xl font-extrabold mb-8 text-center text-indigo-700">Global Career Carnival 2025 - Registrations</h1>
 
-  <div class="flex flex-col md:flex-row md:justify-between mb-6 gap-4">
+  <div class="flex flex-col lg:flex-row justify-center items-center gap-4 mb-6">
     <!-- Search Form -->
-    <form method="GET" class="flex items-center space-x-2 max-w-md w-full mx-auto md:mx-0">
+    <form method="GET" class="flex items-center space-x-2 w-full max-w-md">
       <input
         type="text"
         name="search"
         placeholder="Search by name or email..."
         value="<?= htmlspecialchars($search) ?>"
-        class="flex-grow border border-gray-300 rounded-md px-4 py-2 focus:outline-indigo-500 focus:ring-2 focus:ring-indigo-400"
+        class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-indigo-500 focus:ring-2 focus:ring-indigo-400"
       />
       <button type="submit" class="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-5 py-2 rounded-md transition">
         Search
@@ -81,7 +73,7 @@ $result = $conn->query($sql);
     </form>
 
     <!-- Export CSV Button -->
-    <form method="GET" action="" class="mx-auto md:mx-0">
+    <form method="GET" action="">
       <input type="hidden" name="export" value="csv" />
       <button type="submit" class="bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-2 rounded-md transition">
         Export CSV
@@ -89,7 +81,7 @@ $result = $conn->query($sql);
     </form>
   </div>
 
-  <div class="table-container bg-white rounded-lg shadow-md">
+  <div class="overflow-x-auto bg-white rounded-lg shadow-md">
     <table class="min-w-full border-collapse text-left text-sm">
       <thead>
         <tr class="bg-indigo-600 text-white uppercase text-xs tracking-wider">
