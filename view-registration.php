@@ -9,7 +9,7 @@ if (isset($_GET['export']) && $_GET['export'] === 'csv') {
     $output = fopen('php://output', 'w');
     fputcsv($output, ['S.No', 'First Name', 'Last Name', 'Email', 'Phone', 'Qualification', 'A+ Count (+2)', 'School', 'Guardian Name', 'Guardian Contact', 'Place']);
 
-    $export_sql = "SELECT first_name, last_name, email, phone, qualification, school, guardian_name, guardian_contact, place, aplus_count FROM registrations ORDER BY id DESC";
+    $export_sql = "SELECT first_name, last_name, email, phone, qualification, aplus_count, school, guardian_name, guardian_contact, place FROM registrations ORDER BY id DESC";
     $export_result = $conn->query($export_sql);
 
     $serial = 1;
